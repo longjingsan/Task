@@ -173,7 +173,27 @@
              - 可以方便的组织和维护不同功能组件的划分
              - 可以根据需要任意调整功能类的组合
              - 可以避免创建很多新的类，导致类的继承混乱
-           
+     
+     # 类相关函数
+       - issubclass:检测一个类是否是另一个类的子类
+       - isinstance:检测一个对象是否是一个类的实例
+       - hasattr:检测一个对象是否由成员xxx
+       - getattr: get attribute
+       - setattr: set attribute
+       - delattr: delete attribute
+       - dir: 获取对象的成员列表
+     # 类成员描述符（属性）
+       - 类的成员描述符是为了在类中对类的成员进行相关操作而创建的一种方式
+             - get：获取属性的操作
+             - set:修改或者添加属性操作
+             - delete：删除属性的操作
+       - 如果想要使用类的成员描述符，大概有三种方法
+             - 使用类实现描述器
+             - 使用属性修饰符
+             - 使用property函数
+                - property函数很简单
+                - property（fget，fset,fdel,doc）
+             - 案例参看notebook
              
        
        
