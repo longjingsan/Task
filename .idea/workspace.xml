@@ -18,7 +18,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="453">
-                <caret line="171" column="38" selection-start-line="171" selection-start-column="38" selection-end-line="171" selection-end-column="38" />
+                <caret line="267" column="10" selection-start-line="267" selection-start-column="10" selection-end-line="267" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -47,8 +47,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="393" />
-    <option name="y" value="8" />
+    <option name="x" value="524" />
     <option name="width" value="1255" />
     <option name="height" value="688" />
   </component>
@@ -57,7 +56,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -69,6 +67,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,14 +190,27 @@
       <option name="project" value="LOCAL" />
       <updated>1558099916242</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="oop-3">
+      <created>1558444026142</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558444026142</updated>
+    </task>
+    <task id="LOCAL-00008" summary="oop-4">
+      <created>1558445911096</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1558445911118</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="393" y="8" width="1255" height="688" extended-state="0" />
-    <editor active="true" />
+    <frame x="524" y="0" width="1255" height="688" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18158996" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18410042" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -225,7 +237,9 @@
     <MESSAGE value="third added" />
     <MESSAGE value="fouth added" />
     <MESSAGE value="oop-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="oop-2" />
+    <MESSAGE value="oop-3" />
+    <MESSAGE value="oop-4" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop-4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/001.py">
@@ -246,7 +260,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="453">
-            <caret line="171" column="38" selection-start-line="171" selection-start-column="38" selection-end-line="171" selection-end-column="38" />
+            <caret line="267" column="10" selection-start-line="267" selection-start-column="10" selection-end-line="267" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>
