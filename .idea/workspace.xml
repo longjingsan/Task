@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80d78bfc-0fb6-4887-8739-36bb877e2596" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/调试/01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/调试/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/note.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,22 +16,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/调试/note.md">
+        <entry file="file://$PROJECT_DIR$/log/note.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="237">
-                <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+              <first_editor relative-caret-position="1025">
+                <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/调试/01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -71,12 +63,16 @@
         <option value="$PROJECT_DIR$/调试/note.md.py" />
         <option value="$PROJECT_DIR$/调试/01.py" />
         <option value="$PROJECT_DIR$/调试/note.md" />
+        <option value="$PROJECT_DIR$/log/01.py" />
+        <option value="$PROJECT_DIR$/log/note.md" />
+        <option value="$PROJECT_DIR$/log/02.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="139" />
+    <option name="y" value="9" />
+    <option name="width" value="1111" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -87,12 +83,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Task" type="b2602c69:ProjectViewProjectNode" />
               <item name="Task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Task" type="b2602c69:ProjectViewProjectNode" />
@@ -108,7 +110,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -129,7 +130,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.01">
+  <component name="RunManager" selected="Python.02">
+    <configuration name="01 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Task" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/log" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/log/01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="01" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Task" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,7 +173,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="p09 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="02" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Task" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,32 +181,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Package" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/log" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Package/p09.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="p09" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Task" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Package/pkg01" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Package/pkg01/p09.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/log/02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -237,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.02" />
+        <item itemvalue="Python.01 (1)" />
         <item itemvalue="Python.01" />
         <item itemvalue="Python.t01" />
         <item itemvalue="Python.p10" />
-        <item itemvalue="Python.p09 (1)" />
-        <item itemvalue="Python.p09" />
       </list>
     </recent_temporary>
   </component>
@@ -333,20 +334,26 @@
       <option name="project" value="LOCAL" />
       <updated>1558705064608</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="l learned how to correct">
+      <created>1559481558022</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1559481558022</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28728414" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.100605145" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3294509" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49874476" visible="true" weight="0.43760398" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49874476" visible="true" weight="0.43606558" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -372,7 +379,8 @@
     <MESSAGE value="oop-5" />
     <MESSAGE value="this time l learned about Package" />
     <MESSAGE value="this time l learned about Error" />
-    <option name="LAST_COMMIT_MESSAGE" value="this time l learned about Error" />
+    <MESSAGE value="l learned how to correct" />
+    <option name="LAST_COMMIT_MESSAGE" value="l learned how to correct" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -526,9 +534,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/调试/note.md.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/调试/note.md.py" />
     <entry file="file://$PROJECT_DIR$/调试/01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -539,8 +545,60 @@
     <entry file="file://$PROJECT_DIR$/调试/note.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="237">
-            <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+          <first_editor relative-caret-position="1125">
+            <caret line="45" selection-start-line="45" selection-end-line="45" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/新建文件夹/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1690" column="13" selection-start-line="1690" selection-start-column="13" selection-end-line="1690" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/yingzi.log">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="400">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/error.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/all.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#534#548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/note.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1025">
+            <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
