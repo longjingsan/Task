@@ -6,3 +6,5 @@ print(math.ceil(5.1))
 
 import keyword
 print(keyword.kwlist)
+print("dsf/nfrf")
+print("dhaihd"+"desfjse\n"+"huiy")
